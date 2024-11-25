@@ -21,7 +21,7 @@ namespace ProsperDaily
                     fonts.AddFont("LibreFranklin-Regular.ttf", "Regular");
                     fonts.AddFont("Roboto-Black.ttf", "Strong");
                 });
-            //This is method
+            
             builder.Services.AddSingleton<BaseRepository<Transaction>>();
 #if DEBUG   
             builder.Logging.AddDebug();
